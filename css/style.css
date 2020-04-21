@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+}
+
+
+.slider img{
+    width: 100% !important;
+    height: auto !important;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+
+
+.introduction h1 {
+    margin: 100px;
+}
+.top {
+    margin-bottom: 50px;
+}
+.intro_h1 {
+    background: linear-gradient(transparent 40%, rgb(255, 229, 218) 50%);
+}
+
+
+
+.howto, .access {
+    background-color: #FA9F77;
+}
+
+
+.howto_in {
+    background-color: white;
+}
+.howto .row {
+    background-color: white;
+
+
+    padding: 50px;
+    margin: 50px;
+    /*ここへんこうするかも*/
+}
+.howto_h1 {
+    background: linear-gradient(transparent 30%, white 50%);
+    margin-top: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+}
+
+.whatcan .row{
+    margin-bottom: 50px;
+}
+.whatcan .col-lg-4 {
+    padding: 20px;
+}
+
+.col_in {
+    margin: 10px;
+    background-color: rgb(255, 229, 218);
+    height: 400px;
+}
+.col_in img {
+    margin: 50px;
+}
+
+.access h1 {
+    color: white;
+    font-weight: bold;
+    margin: 100px;
+}
+.access .row {
+    margin-bottom: 50px;
+}
+
+.access img {
+    max-width: 100%;
+    height: auto;
+    width :auto;
+
+}.access button {
+    background-color: black;
+    color: white;
+}
+.access label {
+    color: white;
+}
+.footer {
+    height: 70px;
+    background-color: black;
+}
+.footer_in {
+    padding-top: 30px;
+}
+.footer p {
+    color: white;
+}
+
+
+input, textarea, button {
+    border-radius: 10px !important;
+}

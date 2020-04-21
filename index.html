@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>EC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script type="text/javascript" src="js/jquery-3.5.0.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".slider").bxSlider({
+        auto: true,
+        speed: 1000,
+        pause: 8000,
+        maxSlides: 1,
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="topslider">
+    <ul class="slider">
+      <li><img src="images/top1.png" /></li>
+      <li><img src="images/top2.png" /></li>
+      <li><img src="images/top3.png" /></li>
+    </ul>
+  </div>
+  <div class="introduction">
+    <div class="container">
+      <h1 class="intro_h1">〇〇はギフティングのあるECです</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="top">
+            <img src="images/introduction.png">
+          </div>
+          <div class="bottom">
+            <img src="images/introduction1.png">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="top">
+            <img src="images/introduction.png">
+          </div>
+          <div class="bottom">
+            <img src="images/introduction2.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="howto">
+    <div class="container">
+      <h1 class="howto_h1">HOW TO USE</h1>
+      <div class="howto_in">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>1.友達を誘ってイベントへ</h2>
+            <p>
+              ダミーテキストはダミー文書やダミー文章とも呼ばれることがあります。書体やレイアウトなどを確認するために用います。主に書籍やウェブページなどのデザインを作成する時によく使われます。
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/howto1.png" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="images/howto2.png" />
+          </div>
+          <div class="col-lg-6">
+            <h2>2.イベントを楽しむ</h2>
+            <p>
+              ダミーテキストはダミー文書やダミー文章とも呼ばれることがあります。書体やレイアウトなどを確認するために用います。主に書籍やウェブページなどのデザインを作成する時によく使われます。
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>3.イベント後感動にGiffting！</h2>
+            <p>
+              ダミーテキストはダミー文書やダミー文章とも呼ばれることがあります。書体やレイアウトなどを確認するために用います。主に書籍やウェブページなどのデザインを作成する時によく使われます。
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/howto3.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="whatcan">
+    <div class="container">
+      <h1>〇〇で出来ること</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="col_in">
+            <img src="images/whatcan1.png">
+            <p>購入したチケットを送ることができる</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="col_in">
+            <img src="images/whatcan2.png">
+            <p>感動に対してチップのやり取りができる</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="col_in">
+            <img src="images/whatcan3.png">
+            <p>すぐにECサイトを立ち上げられる</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="access">
+    <div class="container">
+      <h1>お問い合わせはこちらから</h1>
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="images/access.png">
+        </div>
+        <div class="col-lg-6 col-lg-offset-1">
+          <form>
+            <div class="form-group">
+              <label>お名前</label>
+              <input type="text" class="form-control" placeholder="text">
+            </div>
+            <div class="form-group">
+              <label>メールアドレス</label>
+              <input type="email" class="form-control" placeholder="mailadress">
+            </div>
+            <div class="form-group">
+              <label>会社名</label>
+              <input type="text" class="form-control" placeholder="text">
+            </div>
+            <div class="form-group">
+              <label>お問い合わせ内容</label>
+              <textarea class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-block">送信</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer_in">
+      <p>Copyright © 2020 ABCDEFG</p>
+    </div>
+  </footer>
+</body>
+
+</html>
