@@ -2,6 +2,12 @@ body {
     text-align: center;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width /***/:auto;
+}
+
 
 .slider img{
     width: 100% !important;
@@ -13,14 +19,26 @@ body {
 }
 
 
-
-.introduction h1 {
-    margin: 100px;
+.introduction span {
+    color: #FA9F77;
 }
-.top {
+.introduction .top {
+    position: relative;
     margin-bottom: 50px;
 }
+.top p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-size: 20px;
+}
 .intro_h1 {
+    margin-bottom: 100px;
     background: linear-gradient(transparent 40%, rgb(255, 229, 218) 50%);
 }
 
@@ -44,10 +62,10 @@ body {
 }
 .howto_h1 {
     background: linear-gradient(transparent 30%, white 50%);
-    margin-top: 60px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 40px;
+}
+.howto h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .whatcan .row{
@@ -66,10 +84,13 @@ body {
     margin: 50px;
 }
 
+
+
 .access h1 {
     color: white;
     font-weight: bold;
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .access .row {
     margin-bottom: 50px;
@@ -101,4 +122,55 @@ body {
 
 input, textarea, button {
     border-radius: 10px !important;
+}
+
+
+label {
+    float: left;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+    h1 {
+        font-size: 30px;
+    }
+
+
+    .introduction .col-lg-6 {
+        padding: 50px;
+    }
+
+    .intro_h1 {
+        margin-bottom: 30px;
+    }
+    .howto_in .row {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .flexbox {
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .box1 {
+        order: 2;
+        width: 100%;
+    }
+    .box2 {
+        order: 1;
+    }
+
+    .access h1 {
+        margin: 30px;
+    }
+
+
+
+
 }
