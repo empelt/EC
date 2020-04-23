@@ -139,6 +139,20 @@ label {
 
 
 @media screen and (max-width:1200px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .intro_h1 {
+        margin-bottom: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .howto_h1 {
+        margin: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
     .flexbox {
         display: flex;
         flex-wrap:wrap;
