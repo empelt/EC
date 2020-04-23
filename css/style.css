@@ -38,6 +38,8 @@ img {
     font-size: 20px;
 }
 .intro_h1 {
+    margin-left: 250px;
+    margin-right: 250px;
     margin-bottom: 100px;
     background: linear-gradient(transparent 40%, rgb(255, 229, 218) 50%);
 }
@@ -61,11 +63,14 @@ img {
     /*ここへんこうするかも*/
 }
 .howto_h1 {
+    margin: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
     background: linear-gradient(transparent 30%, white 50%);
 }
 .howto h2 {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .whatcan .row{
@@ -133,12 +138,24 @@ label {
 
 
 
-
+@media screen and (max-width:1200px) {
+    .flexbox {
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .box1 {
+        order: 2;
+        width: 100%;
+    }
+    .box2 {
+        order: 1;
+    }
+}
 
 
 @media screen and (max-width:480px){
     h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
 
@@ -148,10 +165,20 @@ label {
 
     .intro_h1 {
         margin-bottom: 30px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
     .howto_in .row {
         margin: 0 auto;
         padding: 0;
+    }
+    .howto_h1 {
+        margin: 30px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .top p {
+        font-size: 15px;
     }
 
     .flexbox {
