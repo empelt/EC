@@ -19,6 +19,7 @@
         speed: 1000,
         pause: 8000,
         maxSlides: 1,
+        pager: false
       });
     });
   </script>
@@ -27,16 +28,31 @@
 <body>
   <div class="topslider">
     <ul class="slider">
-      <li><img src="images/top1.png" /></li>
-      <li><img src="images/top2.png" /></li>
-      <li><img src="images/top3.png" /></li>
+      <li>
+        <img src="images/top1.png" />
+        <h1 class="str11">劇場の感動も</h1>
+        <h1 class="str12">次の感動へ</h1>
+        <h2 class="str13">加盟店募集中</h2>
+      </li>
+      <li>
+        <img src="images/top2.png" />
+        <h1 class="str21">その日の感動を</h1>
+        <h1 class="str22">次の感動へ</h1>
+        <h2 class="str23">加盟店募集中</h2>
+      </li>
+      <li>
+        <img src="images/top3.png" />
+        <h1 class="str31">美味しさの感動も</h1>
+        <h1 class="str32">次の感動へ</h1>
+        <h2 class="str33">加盟店募集中</h2>
+      </li>
     </ul>
   </div>
   <div class="introduction">
     <div class="container">
       <h1 class="intro_h1">〇〇はギフティングのあるECです</h1>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-5">
           <div class="top">
             <img src="images/introduction.png">
             <p>チケットを誰かに<span>Gift</span>する</p>
@@ -45,7 +61,7 @@
             <img src="images/introduction1.png">
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-5 col-lg-offset-2">
           <div class="top">
             <img src="images/introduction.png">
             <p>感動の対価を運営元に<span>Gift</span>する</p>
@@ -83,7 +99,7 @@
             </p>
           </div>
         </div>
-        <div class="row">
+        <div class="row last">
           <div class="col-lg-6">
             <h2>3.イベント後感動にGiffting！</h2>
             <p>
@@ -132,22 +148,22 @@
           <img src="images/access.png">
         </div>
         <div class="col-lg-6 col-lg-offset-1">
-          <form>
+          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc2aelFxVq763L58nxnnI2ssxZBDpjZP1b1nXlvvmuH83LMdQ/formResponse">
             <div class="form-group">
               <label>お名前</label>
-              <input type="text" class="form-control" placeholder="text">
+              <input type="text" class="form-control" placeholder="text" name="entry.1144617301" required/>
             </div>
             <div class="form-group">
               <label>メールアドレス</label>
-              <input type="email" class="form-control" placeholder="mailadress">
+              <input type="email" class="form-control" placeholder="mailadress" name="entry.1483169354" required/>
             </div>
             <div class="form-group">
               <label>会社名</label>
-              <input type="text" class="form-control" placeholder="text">
+              <input type="text" class="form-control" placeholder="text" name="entry.1231698964" required/>
             </div>
             <div class="form-group">
               <label>お問い合わせ内容</label>
-              <textarea class="form-control"></textarea>
+              <textarea class="form-control" name="entry.1633845435" required></textarea>
             </div>
             <div class="form-group">
               <button class="btn btn-block">送信</button>

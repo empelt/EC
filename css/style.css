@@ -9,6 +9,62 @@ img {
 }
 
 
+.slider .str11 {
+    position: absolute;
+    top: 22%;
+    left: 17%;
+    font-size: 70px;
+}
+.slider .str12 {
+    position: absolute;
+    top: 34%;
+    left: 19%;
+    font-size: 70px;
+}
+.slider .str13 {
+    position: absolute;
+    top: 72%;
+    left: 19%;
+    font-size: 50px;
+}
+.slider .str21 {
+    position: absolute;
+    top: 13%;
+    left: 38%;
+    font-size: 70px;
+}
+.slider .str22 {
+    position: absolute;
+    top: 28%;
+    left: 41%;
+    font-size: 70px;
+}
+.slider .str23 {
+    position: absolute;
+    top: 75%;
+    left: 42%;
+    font-size: 50px;
+}
+.slider .str31 {
+    position: absolute;
+    top: 14%;
+    left: 13%;
+    font-size: 70px;
+}
+.slider .str32 {
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    font-size: 70px;
+}
+.slider .str33 {
+    position: absolute;
+    top: 72%;
+    left: 20%;
+    font-size: 50px;
+}
+
+
 .slider img{
     width: 100% !important;
     height: auto !important;
@@ -19,6 +75,25 @@ img {
 }
 
 
+.introduction {
+    background-color: rgb(255, 229, 218);
+}
+.introduction .row {
+    margin-bottom: 50px;
+    width: 100%;
+    margin-left: 0;
+
+}
+.introduction img {
+    padding: 10px;
+}
+.introduction .col-lg-5 {
+    background-color: white;
+    padding: 0;
+}
+.introduction .container {
+    margin-top: 0;
+}
 .introduction span {
     color: #FA9F77;
 }
@@ -26,6 +101,8 @@ img {
     position: relative;
     margin-bottom: 50px;
 }
+
+
 .top p {
     position: absolute;
     top: 40%;
@@ -38,19 +115,21 @@ img {
     font-size: 20px;
 }
 .intro_h1 {
+    margin-top: 50px;
     margin-left: 250px;
     margin-right: 250px;
-    margin-bottom: 100px;
-    background: linear-gradient(transparent 40%, rgb(255, 229, 218) 50%);
+    margin-bottom: 50px;
+    background: linear-gradient(transparent 40%, rgb(255, 186, 156) 50%);
 }
 
 
 
+.howto .container {
+    margin-top: 0;
+}
 .howto, .access {
     background-color: #FA9F77;
 }
-
-
 .howto_in {
     background-color: white;
 }
@@ -72,6 +151,7 @@ img {
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
 
 .whatcan .row{
     margin-bottom: 50px;
@@ -98,7 +178,7 @@ img {
     margin-bottom: 100px;
 }
 .access .row {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .access img {
@@ -142,7 +222,10 @@ label {
     h1 {
         font-size: 30px;
     }
-
+    .introduction .col-lg-5 {
+        padding: 0;
+        margin-bottom: 20px;
+    }
     .intro_h1 {
         margin-bottom: 30px;
         margin-left: 100px;
@@ -176,8 +259,9 @@ label {
     }
 
 
-    .introduction .col-lg-6 {
-        padding: 50px;
+    .introduction .col-lg-5 {
+        padding: 0;
+        margin-bottom: 20px;
     }
 
     .intro_h1 {
@@ -186,7 +270,6 @@ label {
         margin-right: 60px;
     }
     .howto_in .row {
-        margin: 0 auto;
         padding: 0;
     }
     .howto_h1 {
@@ -213,7 +296,9 @@ label {
     .access h1 {
         margin: 30px;
     }
-
+    .howto .last {
+        margin-bottom: 50px;
+    }
 
 
 
