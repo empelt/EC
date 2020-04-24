@@ -222,6 +222,12 @@ label {
     h1 {
         font-size: 30px;
     }
+    .slider h1 {
+        font-size: 30px !important;
+    }
+    .slider h2 {
+        font-size: 20px !important;
+    }
     .introduction .col-lg-5 {
         padding: 0;
         margin-bottom: 20px;
@@ -256,6 +262,13 @@ label {
     }
     h2 {
         font-size: 20px;
+    }
+
+    .slider h1 {
+        font-size: 10px !important;
+    }
+    .slider h2 {
+        font-size: 10px !important;
     }
 
 
